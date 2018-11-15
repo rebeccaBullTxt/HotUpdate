@@ -1,0 +1,65 @@
+{
+  "name": "HotUpdate",
+  "version": "0.1.0",
+  "summary": "HotUpdateHotUpdate",
+  "description": "HotUpdateHotUpdateHotUpdate",
+  "homepage": "https://github.com/rebeccaBullTxt/HotUpdate",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rebeccaBullTxt": "rebeccaBull@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/rebeccaBullTxt/HotUpdate.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "static_framework": true,
+  "libraries": [
+    "stdc++",
+    "z",
+    "sqlite3"
+  ],
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "vendored_libraries": "HotUpdate/HotUpdate/Classes/ThirdFrameWork/PgySDK/PgySDK.framework",
+  "source_files": [
+    "HotUpdate/Classes/**/*.{h,m}",
+    "HotUpdate/Classes/**/*.mm"
+  ],
+  "public_header_files": "HotUpdate/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit",
+    "Foundation",
+    "AVFoundation",
+    "CoreMedia",
+    "CFNetwork",
+    "Security",
+    "SystemConfiguration",
+    "MobileCoreServices",
+    "ImageIO",
+    "CoreGraphics",
+    "CoreFoundation",
+    "QuartzCore",
+    "AssetsLibrary",
+    "Accelerate",
+    "CoreTelephony",
+    "OpenGLES",
+    "CoreMotion",
+    "AudioToolbox"
+  ],
+  "dependencies": {
+    "WCDB": [
+
+    ],
+    "Qiniu": [
+
+    ]
+  }
+}

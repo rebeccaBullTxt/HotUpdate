@@ -1,0 +1,40 @@
+PODS:
+  - HappyDNS (0.3.14)
+  - HotUpdate (0.1.0):
+    - Qiniu
+    - WCDB
+  - Qiniu (7.2.5):
+    - HappyDNS (~> 0.3)
+  - SQLiteRepairKit (1.2.1):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDB (1.0.7.5):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
+
+DEPENDENCIES:
+  - HotUpdate (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HappyDNS
+    - Qiniu
+    - SQLiteRepairKit
+    - WCDB
+    - WCDBOptimizedSQLCipher
+
+EXTERNAL SOURCES:
+  HotUpdate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HappyDNS: dc6a164ee81979093123c241c6353bcf0218add6
+  HotUpdate: 85bd0e401c3def6e2ab65134c98d1df228c040e8
+  Qiniu: 909b408ee489ea54827e9717be90b94bc9dfbc48
+  SQLiteRepairKit: 4d21bab9eff6a273f63da6815a0d1659e53f5bde
+  WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+
+PODFILE CHECKSUM: 15f0680c8d415d04131b1e0c7edbd8f8a6e02be4
+
+COCOAPODS: 1.5.3

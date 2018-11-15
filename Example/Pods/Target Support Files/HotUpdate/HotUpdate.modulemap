@@ -1,0 +1,6 @@
+framework module HotUpdate {
+  umbrella header "HotUpdate-umbrella.h"
+
+  export *
+  module * { export * }
+}
