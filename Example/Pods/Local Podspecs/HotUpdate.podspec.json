@@ -1,6 +1,6 @@
 {
   "name": "HotUpdate",
-  "version": "0.4.0",
+  "version": "0.6.0",
   "summary": "HotUpdateHotUpdate",
   "description": "HotUpdateHotUpdateHotUpdate",
   "homepage": "https://github.com/rebeccaBullTxt/HotUpdate",
@@ -12,8 +12,7 @@
     "rebeccaBullTxt": "rebeccaBull@sina.com"
   },
   "source": {
-    "git": "https://github.com/rebeccaBullTxt/HotUpdate.git",
-    "tag": "0.4.0"
+    "git": "/Users/duke/Desktop/HotUpdate"
   },
   "platforms": {
     "ios": "8.0"
