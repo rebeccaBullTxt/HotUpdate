@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HotUpdate'
-  s.version          = '0.1.0'
+  s.version          = '0.4.0'
   s.summary          = 'HotUpdateHotUpdate'
 
 # This description is used to generate tags and improve search results.
@@ -33,9 +33,10 @@ Pod::Spec.new do |s|
   s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
   
   #第三方静态库
-  s.vendored_libraries = 'HotUpdate/HotUpdate/Classes/ThirdFrameWork/PgySDK/PgyUpdate.framework'
-  s.vendored_libraries = 'HotUpdate/HotUpdate/Classes/ThirdFrameWork/PgySDK/PgySDK.framework'
-  
+#  s.vendored_libraries = 'HotUpdate/Classes/ThirdFrameWork/PgySDK/*.{framework}'
+#  s.vendored_libraries = 'HotUpdate/Classes/ThirdFrameWork/PgySDK/PgyUpdate.framework'
+#  s.vendored_libraries = 'HotUpdate/Classes/ThirdFrameWork/PgySDK/PgySDK.framework'
+
  #  s.source_files = 'HotUpdate/Classes/**/*'  'HotUpdate/Classes/**/*.framework'
   s.source_files = 'HotUpdate/Classes/**/*.{h,m}', 'HotUpdate/Classes/**/*.mm'
   s.public_header_files = 'HotUpdate/Classes/**/*.h'

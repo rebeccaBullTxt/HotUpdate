@@ -1,6 +1,6 @@
 {
   "name": "HotUpdate",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "summary": "HotUpdateHotUpdate",
   "description": "HotUpdateHotUpdateHotUpdate",
   "homepage": "https://github.com/rebeccaBullTxt/HotUpdate",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/rebeccaBullTxt/HotUpdate.git",
-    "tag": "0.1.0"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -29,7 +29,6 @@
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
   },
-  "vendored_libraries": "HotUpdate/HotUpdate/Classes/ThirdFrameWork/PgySDK/PgySDK.framework",
   "source_files": [
     "HotUpdate/Classes/**/*.{h,m}",
     "HotUpdate/Classes/**/*.mm"
