@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.static_framework  =  true
-  s.libraries = 'stdc++', 'z', 'sqlite3'
+  s.libraries = 'stdc++', 'z', 'sqlite3', 'ssl', 'crypto'
   s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
   
   #第三方静态库
@@ -40,8 +40,13 @@ Pod::Spec.new do |s|
   s.source_files = 'HotUpdate/Classes/**/*.{h,m}', 'HotUpdate/Classes/**/*.mm'
   s.public_header_files = 'HotUpdate/Classes/**/*.h'
  
-  s.frameworks = 'UIKit', 'MapKit', 'Foundation', 'AVFoundation', 'CoreMedia', 'CFNetwork', 'Security', 'SystemConfiguration', 'MobileCoreServices', 'ImageIO', 'CoreGraphics', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'Accelerate', 'CoreTelephony', 'OpenGLES', 'CoreMotion', 'AudioToolbox'
+  s.frameworks = 'UIKit', 'MapKit', 'Foundation', 'AVFoundation', 'CoreMedia', 'CFNetwork', 'Security', 'SystemConfiguration', 'MobileCoreServices', 'ImageIO', 'CoreGraphics', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'Accelerate', 'CoreTelephony', 'OpenGLES', 'CoreMotion', 'AudioToolbox', 'CoreLocation', 'CoreText'
   
   s.dependency 'WCDB'
   s.dependency 'Qiniu'
+  s.dependency 'BMKLocationKit'
+  s.dependency 'BaiduMapKit'
+  s.dependency 'JPush'
+  s.dependency 'Bugly'
+  s.dependency 'tingyunApp'
 end

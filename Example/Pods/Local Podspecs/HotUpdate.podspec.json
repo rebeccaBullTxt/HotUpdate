@@ -22,7 +22,9 @@
   "libraries": [
     "stdc++",
     "z",
-    "sqlite3"
+    "sqlite3",
+    "ssl",
+    "crypto"
   ],
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
@@ -52,13 +54,30 @@
     "CoreTelephony",
     "OpenGLES",
     "CoreMotion",
-    "AudioToolbox"
+    "AudioToolbox",
+    "CoreLocation",
+    "CoreText"
   ],
   "dependencies": {
     "WCDB": [
 
     ],
     "Qiniu": [
+
+    ],
+    "BMKLocationKit": [
+
+    ],
+    "BaiduMapKit": [
+
+    ],
+    "JPush": [
+
+    ],
+    "Bugly": [
+
+    ],
+    "tingyunApp": [
 
     ]
   }
