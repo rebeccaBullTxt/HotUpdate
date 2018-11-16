@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HotUpdate'
-  s.version          = '0.15.0'
+  s.version          = '0.16.0'
   s.summary          = 'HotUpdateHotUpdate'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.static_framework  =  true
   s.libraries = 'stdc++', 'z', 'sqlite3', 'ssl', 'crypto'
   s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
-  s.xcconfig = {'OTHER_LDFLAGS' => '-all_load'}
+#  s.xcconfig = {'OTHER_LDFLAGS' => '-all_load'}
   #第三方静态库
 #  s.vendored_libraries = 'HotUpdate/Classes/ThirdFrameWork/ReactiveObjC'
 #  s.vendored_libraries = 'HotUpdate/Classes/ThirdFrameWork/PgySDK/*.{framework}'
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
 #  s.vendored_libraries = 'HotUpdate/Classes/ThirdFrameWork/PgySDK/PgySDK.framework'
 
  #  s.source_files = 'HotUpdate/Classes/**/*'  'HotUpdate/Classes/**/*.framework'
-  s.source_files = 'HotUpdate/Classes/**/*.{h,m}', 'HotUpdate/Classes/**/*.mm', 'HotUpdate/Classes/**/*.d', 'HotUpdate/Example/Pods/**/*'
+  s.source_files = 'HotUpdate/Classes/**/*.{h,m}', 'HotUpdate/Classes/**/*.mm', 'HotUpdate/Classes/**/*.d'
   s.public_header_files = 'HotUpdate/Classes/**/*.h'
  
   s.frameworks = 'UIKit', 'MapKit', 'Foundation', 'AVFoundation', 'CoreMedia', 'CFNetwork', 'Security', 'SystemConfiguration', 'MobileCoreServices', 'ImageIO', 'CoreGraphics', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'Accelerate', 'CoreTelephony', 'OpenGLES', 'CoreMotion', 'AudioToolbox', 'CoreLocation', 'CoreText'

@@ -10,7 +10,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface WCDBManager : NSObject
-
+/**
+ 单例模式
+ */
++ (instancetype)shared;
 @end
 
 NS_ASSUME_NONNULL_END
