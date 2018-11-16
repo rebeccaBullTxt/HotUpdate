@@ -1,6 +1,6 @@
 {
   "name": "HotUpdate",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "summary": "HotUpdateHotUpdate",
   "description": "HotUpdateHotUpdateHotUpdate",
   "homepage": "https://github.com/rebeccaBullTxt/HotUpdate",
@@ -23,7 +23,8 @@
     "z",
     "sqlite3",
     "ssl",
-    "crypto"
+    "crypto",
+    "usrtcp"
   ],
   "xcconfig": {
     "OTHER_LDFLAGS": "-all_load"
