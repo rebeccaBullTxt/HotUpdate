@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  单例模式
  */
-+ (instancetype)shared;
+//+ (instancetype)shared;
 @end
 
 NS_ASSUME_NONNULL_END

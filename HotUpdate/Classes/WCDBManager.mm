@@ -6,26 +6,26 @@
 //
 
 #import "WCDBManager.h"
-#import <WCDB/WCDB.h>
+//#import <WCDB/WCDB.h>
 @implementation WCDBManager
 /**
  单例模式
  */
-+ (instancetype)shared
-{
-    static WCDBManager *manager = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        manager = [[WCDBManager alloc] init];
-        [manager initializeDataBase];
-    });
-    return manager;
-}
-
-- (void)initializeDataBase {
-    NSString *documentsPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
-    NSString *filePath = [documentsPath stringByAppendingPathComponent:@"HanTalkCache.sqlite"];
-    NSLog(@"%@",filePath);
-    WCTDatabase *database = [[WCTDatabase alloc]initWithPath:filePath];
-}
+//+ (instancetype)shared
+//{
+//    static WCDBManager *manager = nil;
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        manager = [[WCDBManager alloc] init];
+//        [manager initializeDataBase];
+//    });
+//    return manager;
+//}
+//
+//- (void)initializeDataBase {
+//    NSString *documentsPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+//    NSString *filePath = [documentsPath stringByAppendingPathComponent:@"HanTalkCache.sqlite"];
+//    NSLog(@"%@",filePath);
+//    WCTDatabase *database = [[WCTDatabase alloc]initWithPath:filePath];
+//}
 @end
