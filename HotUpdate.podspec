@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HotUpdate'
-  s.version          = '0.13.0'
+  s.version          = '0.14.0'
   s.summary          = 'HotUpdateHotUpdate'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
 #  s.vendored_libraries = 'HotUpdate/Classes/ThirdFrameWork/PgySDK/PgySDK.framework'
 
  #  s.source_files = 'HotUpdate/Classes/**/*'  'HotUpdate/Classes/**/*.framework'
-  s.source_files = 'HotUpdate/Classes/**/*.{h,m}', 'HotUpdate/Classes/**/*.mm', 'HotUpdate/Classes/**/*.d', 'HotUpdate/Example/Pods/**/*.cpp', 'HotUpdate/Example/Pods/**/*.{c,h}', 'HotUpdate/Example/Pods/**/*.hpp',
+  s.source_files = 'HotUpdate/Classes/**/*.{h,m}', 'HotUpdate/Classes/**/*.mm', 'HotUpdate/Classes/**/*.d', 'HotUpdate/Example/Pods/**/*', 'HotUpdate/Example/Pods/**/*', 'HotUpdate/Example/Pods/**/*',
   s.public_header_files = 'HotUpdate/Classes/**/*.h'
  
   s.frameworks = 'UIKit', 'MapKit', 'Foundation', 'AVFoundation', 'CoreMedia', 'CFNetwork', 'Security', 'SystemConfiguration', 'MobileCoreServices', 'ImageIO', 'CoreGraphics', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'Accelerate', 'CoreTelephony', 'OpenGLES', 'CoreMotion', 'AudioToolbox', 'CoreLocation', 'CoreText'
