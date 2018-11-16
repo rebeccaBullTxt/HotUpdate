@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HotUpdate'
-  s.version          = '0.9.0'
+  s.version          = '0.10.0'
   s.summary          = 'HotUpdateHotUpdate'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.static_framework  =  true
   s.libraries = 'stdc++', 'z', 'sqlite3', 'ssl', 'crypto'
-  s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
+  s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC', 'OTHER_LDFLAGS' => '-all_load'}
 #  /Users/duke/Desktop/HotUpdate/
   #第三方静态库
 #  s.vendored_libraries = 'HotUpdate/Classes/ThirdFrameWork/ReactiveObjC'

@@ -1,6 +1,6 @@
 {
   "name": "HotUpdate",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "summary": "HotUpdateHotUpdate",
   "description": "HotUpdateHotUpdateHotUpdate",
   "homepage": "https://github.com/rebeccaBullTxt/HotUpdate",
@@ -26,7 +26,7 @@
     "crypto"
   ],
   "xcconfig": {
-    "OTHER_LDFLAGS": "-ObjC"
+    "OTHER_LDFLAGS": "-all_load"
   },
   "source_files": [
     "HotUpdate/Classes/**/*.{h,m}",
