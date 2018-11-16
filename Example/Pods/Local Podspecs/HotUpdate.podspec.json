@@ -58,9 +58,6 @@
     "CoreText"
   ],
   "dependencies": {
-    "WCDB": [
-
-    ],
     "Qiniu": [
 
     ],

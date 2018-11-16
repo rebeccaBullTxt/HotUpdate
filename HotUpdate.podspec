@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
  
   s.frameworks = 'UIKit', 'MapKit', 'Foundation', 'AVFoundation', 'CoreMedia', 'CFNetwork', 'Security', 'SystemConfiguration', 'MobileCoreServices', 'ImageIO', 'CoreGraphics', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'Accelerate', 'CoreTelephony', 'OpenGLES', 'CoreMotion', 'AudioToolbox', 'CoreLocation', 'CoreText'
   
-  s.dependency 'WCDB'
+#  s.dependency 'WCDB'
   s.dependency 'Qiniu'
   s.dependency 'BMKLocationKit'
   s.dependency 'BaiduMapKit'
