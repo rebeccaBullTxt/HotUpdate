@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HotUpdate'
-  s.version          = '0.18.0'
+  s.version          = '0.19.0'
   s.summary          = 'HotUpdateHotUpdate'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.static_framework  =  true
-  s.libraries = 'stdc++', 'z', 'sqlite3', 'ssl', 'crypto'
+  s.libraries = 'stdc++', 'z', 'sqlite3', 'ssl', 'crypto', 'resolv.9', 'icucore', 'sqlite'
   s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
 #  s.xcconfig = {'OTHER_LDFLAGS' => '-all_load'}
   #第三方静态库
@@ -43,9 +43,9 @@ Pod::Spec.new do |s|
   s.source_files = 'HotUpdate/Classes/**/*.{h,m}', 'HotUpdate/Classes/**/*.mm', 'HotUpdate/Classes/**/*.d'
   s.public_header_files = 'HotUpdate/Classes/**/*.h'
  
-  s.frameworks = 'UIKit', 'MapKit', 'Foundation', 'AVFoundation', 'CoreMedia', 'CFNetwork', 'Security', 'SystemConfiguration', 'MobileCoreServices', 'ImageIO', 'CoreGraphics', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'Accelerate', 'CoreTelephony', 'OpenGLES', 'CoreMotion', 'AudioToolbox', 'CoreLocation', 'CoreText'
+  s.frameworks = 'UIKit', 'MapKit', 'Foundation', 'AVFoundation', 'CoreMedia', 'CFNetwork', 'Security', 'SystemConfiguration', 'MobileCoreServices', 'ImageIO', 'CoreGraphics', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'Accelerate', 'CoreTelephony', 'OpenGLES', 'CoreMotion', 'AudioToolbox', 'CoreLocation', 'CoreText',  'WebKit'
   
-#  s.dependency 'WCDB'
+  s.dependency 'WCDB'
   s.dependency 'Qiniu'
   s.dependency 'BMKLocationKit'
   s.dependency 'BaiduMapKit'

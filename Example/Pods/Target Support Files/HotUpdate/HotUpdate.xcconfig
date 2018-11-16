@@ -1,9 +1,9 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/HotUpdate
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HappyDNS" "${PODS_CONFIGURATION_BUILD_DIR}/Qiniu" "${PODS_ROOT}/BMKLocationKit/framework" "${PODS_ROOT}/BaiduMapKit/BaiduMapKit" "${PODS_ROOT}/Bugly"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HappyDNS" "${PODS_CONFIGURATION_BUILD_DIR}/Qiniu" "${PODS_CONFIGURATION_BUILD_DIR}/SQLiteRepairKit" "${PODS_CONFIGURATION_BUILD_DIR}/WCDB" "${PODS_CONFIGURATION_BUILD_DIR}/WCDBOptimizedSQLCipher" "${PODS_ROOT}/BMKLocationKit/framework" "${PODS_ROOT}/BaiduMapKit/BaiduMapKit" "${PODS_ROOT}/Bugly"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public"
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BaiduMapKit/BaiduMapKit/thirdlibs" "${PODS_ROOT}/JPush" "${PODS_ROOT}/JCore"
-OTHER_LDFLAGS = -ObjC -l"crypto" -l"sqlite3" -l"ssl" -l"stdc++" -l"z" -framework "AVFoundation" -framework "Accelerate" -framework "AssetsLibrary" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "MapKit" -framework "MobileCoreServices" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_LDFLAGS = -ObjC -l"crypto" -l"icucore" -l"resolv.9" -l"sqlite" -l"sqlite3" -l"ssl" -l"stdc++" -l"z" -framework "AVFoundation" -framework "Accelerate" -framework "AssetsLibrary" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "MapKit" -framework "MobileCoreServices" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}
