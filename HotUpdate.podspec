@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HotUpdate'
-  s.version          = '0.20.0'
+  s.version          = '0.21.0'
   s.summary          = 'HotUpdateHotUpdate'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.static_framework  =  true
-  s.libraries = 'stdc++', 'z', 'sqlite3', 'ssl', 'crypto', 'resolv.9', 'icucore', 'sqlite'
+  s.libraries = 'stdc++', 'z', 'sqlite3', 'ssl', 'crypto', 'resolv.9', 'icucore', 'sqlite3.0'
   s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
 #  s.xcconfig = {'OTHER_LDFLAGS' => '-all_load'}
   #第三方静态库

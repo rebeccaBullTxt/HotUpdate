@@ -1,6 +1,6 @@
 {
   "name": "HotUpdate",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "summary": "HotUpdateHotUpdate",
   "description": "HotUpdateHotUpdateHotUpdate",
   "homepage": "https://github.com/rebeccaBullTxt/HotUpdate",
@@ -26,7 +26,7 @@
     "crypto",
     "resolv.9",
     "icucore",
-    "sqlite"
+    "sqlite3.0"
   ],
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
