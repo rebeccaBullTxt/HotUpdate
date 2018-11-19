@@ -106,8 +106,6 @@
 #import "MZMethodSwizzler.h"
 #import "MZTransition.h"
 #import "UIViewController+TargetViewController.h"
-#import "PgyManager.h"
-#import "PgyUpdateManager.h"
 #import "EXTKeyPathCoding.h"
 #import "EXTRuntimeExtensions.h"
 #import "EXTScope.h"
