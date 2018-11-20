@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HotUpdate'
-  s.version          = '0.25.0'
+  s.version          = '0.26.0'
   s.summary          = 'HotUpdateHotUpdate'
 
 # This description is used to generate tags and improve search results.
@@ -46,10 +46,10 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'MapKit', 'Foundation', 'AVFoundation', 'CoreMedia', 'CFNetwork', 'Security', 'SystemConfiguration', 'MobileCoreServices', 'ImageIO', 'CoreGraphics', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'Accelerate', 'CoreTelephony', 'OpenGLES', 'CoreMotion', 'AudioToolbox', 'CoreLocation', 'CoreText',  'WebKit'
   
 #  s.dependency 'WCDB'
-  s.dependency 'Qiniu'
-  s.dependency 'BMKLocationKit'
-  s.dependency 'BaiduMapKit'
+#  s.dependency 'Qiniu'
+#  s.dependency 'BMKLocationKit'
+#  s.dependency 'BaiduMapKit'
   s.dependency 'JPush'
-  s.dependency 'Bugly'
-  s.dependency 'tingyunApp'
+#  s.dependency 'Bugly'
+#  s.dependency 'tingyunApp'
 end
