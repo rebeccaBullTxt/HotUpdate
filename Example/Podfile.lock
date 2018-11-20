@@ -1,26 +1,15 @@
 PODS:
-  - HotUpdate (0.26.0):
-    - JPush
-  - JCore (1.2.5)
-  - JPush (3.1.1.1):
-    - JCore (~> 1.2.5)
+  - HotUpdate (0.27.0)
 
 DEPENDENCIES:
   - HotUpdate (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - JCore
-    - JPush
 
 EXTERNAL SOURCES:
   HotUpdate:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HotUpdate: a892a6e517085ae3e3e4b72586d61ec29d8ab2fc
-  JCore: 14706de2640b25fb77dbd02332696491407f37c9
-  JPush: 25dd9013fbe106082c14f9f30a82364ee98852fb
+  HotUpdate: c2efa633564fc0697bd4994cef692eca5642322d
 
 PODFILE CHECKSUM: 15f0680c8d415d04131b1e0c7edbd8f8a6e02be4
 

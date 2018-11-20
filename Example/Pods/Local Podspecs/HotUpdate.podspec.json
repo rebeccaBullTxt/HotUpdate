@@ -1,6 +1,6 @@
 {
   "name": "HotUpdate",
-  "version": "0.26.0",
+  "version": "0.27.0",
   "summary": "HotUpdateHotUpdate",
   "description": "HotUpdateHotUpdateHotUpdate",
   "homepage": "https://github.com/rebeccaBullTxt/HotUpdate",
@@ -20,13 +20,7 @@
   "static_framework": true,
   "libraries": [
     "stdc++",
-    "z",
-    "sqlite3",
-    "ssl",
-    "crypto",
-    "resolv.9",
-    "icucore",
-    "sqlite3.0"
+    "z"
   ],
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
@@ -60,10 +54,5 @@
     "CoreLocation",
     "CoreText",
     "WebKit"
-  ],
-  "dependencies": {
-    "JPush": [
-
-    ]
-  }
+  ]
 }

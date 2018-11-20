@@ -644,7 +644,6 @@
 		18A6CF822441156B9347B79A5333672D /* RealReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RealReachability.h; sourceTree = "<group>"; };
 		18BB5BFB2C8ABCBA6193CB17E775EB87 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		19F7EB36372D9541C12113DB789D79BA /* Pods_HotUpdate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HotUpdate_Tests.framework; path = "Pods-HotUpdate_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A55912E253E51282AD06674A76C9149 /* libjpush-ios-3.1.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.1.1.a"; sourceTree = "<group>"; };
 		1BEF03660DD87F28AE2A979AF7D891C8 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
 		1C0D1AEAB39E7CF58E7800EBBC120DC1 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
 		1C364509C2ECBF87B5DD0A6B295C4D2F /* UIActionSheet+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+RACSignalSupport.h"; sourceTree = "<group>"; };
@@ -1069,7 +1068,6 @@
 		D8C8D5053FBDD7CD93D312A2D1D819B4 /* MZFormSheetPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationController.h; sourceTree = "<group>"; };
 		D90A36D1B1FF18B53DDD60293F0FFD91 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
 		DA8115EFB8EB147BDC53533B3C4A6429 /* XLFormRightDetailCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XLFormRightDetailCell.h; sourceTree = "<group>"; };
-		DB475628CD6F5151C65AF18237E3C4F8 /* libjcore-ios-1.2.5.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-1.2.5.a"; sourceTree = "<group>"; };
 		DBAD56261F40360614A883A998DC8913 /* RACSubscriber+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RACSubscriber+Private.h"; sourceTree = "<group>"; };
 		DC593504296EFF259B2B77F9ABF1FB86 /* TZProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TZProgressView.m; sourceTree = "<group>"; };
 		DCDFB3D852245EF7B49FAA242397D17D /* XLFormSectionDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XLFormSectionDescriptor.m; sourceTree = "<group>"; };
@@ -1119,7 +1117,6 @@
 		F311AC1E6CD2819AD6A1C1ADDA8A1A76 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		F3627CE78398266CD866402D9D079F91 /* JXCategoryIndicatorBallView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JXCategoryIndicatorBallView.m; sourceTree = "<group>"; };
 		F3B87704C9DF7912133429A513145993 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
-		F3FD59531FAA0921FFFF2D9907EAE2E4 /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		F5703E09BA9CC3F47DF93D9C3B924B17 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
 		F5CCC48914BD77E761FA48D121D2D5BE /* FLAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
 		F6052B1486FDAE71BAD2EC6FF3C1680A /* RACPassthroughSubscriber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RACPassthroughSubscriber.h; sourceTree = "<group>"; };
@@ -1203,15 +1200,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0917930F08BA1BA7225A2FDBB6CA8AA8 /* JCore */ = {
-			isa = PBXGroup;
-			children = (
-				5495E34FA08887FDA1917053A77F2505 /* Frameworks */,
-			);
-			name = JCore;
-			path = JCore;
-			sourceTree = "<group>";
-		};
 		0ABF9B3F604B6F21282A49FBA4E21684 /* Pods-HotUpdate_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -1237,15 +1225,6 @@
 			);
 			name = SWTableViewCell;
 			path = SWTableViewCell;
-			sourceTree = "<group>";
-		};
-		15D461BB3376D09F0C3088DCDF47CBA8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0917930F08BA1BA7225A2FDBB6CA8AA8 /* JCore */,
-				DC1FEFD4C6A5932F09AA5290165AF70D /* JPush */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		1C669F5382E5290C49227CDC79D8099C /* TZImagePickerController */ = {
@@ -1436,14 +1415,6 @@
 			path = YYImage;
 			sourceTree = "<group>";
 		};
-		4BFE4BB74F2650D5C215BE0340F0ED7C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1A55912E253E51282AD06674A76C9149 /* libjpush-ios-3.1.1.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		535C53A55C300E652049E1A32FF079D8 /* FDFullscreenPopGesture */ = {
 			isa = PBXGroup;
 			children = (
@@ -1494,14 +1465,6 @@
 			);
 			name = Cell;
 			path = Cell;
-			sourceTree = "<group>";
-		};
-		5495E34FA08887FDA1917053A77F2505 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DB475628CD6F5151C65AF18237E3C4F8 /* libjcore-ios-1.2.5.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		558CBBDD2020A84F1A10EC5362E1A4D8 /* Descriptors */ = {
@@ -1773,7 +1736,6 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				CC7BCAEC857DDE1F1192D11B33CB83B9 /* Development Pods */,
 				95A56A787DC6B89D557E638AA044EB6B /* Frameworks */,
-				15D461BB3376D09F0C3088DCDF47CBA8 /* Pods */,
 				8B23AFD193B2B4F9EE5ED83EB50D63A3 /* Products */,
 				F6494B0F67306F4D0D757004D2B61D39 /* Targets Support Files */,
 			);
@@ -2257,16 +2219,6 @@
 			);
 			name = Title;
 			path = Title;
-			sourceTree = "<group>";
-		};
-		DC1FEFD4C6A5932F09AA5290165AF70D /* JPush */ = {
-			isa = PBXGroup;
-			children = (
-				F3FD59531FAA0921FFFF2D9907EAE2E4 /* JPUSHService.h */,
-				4BFE4BB74F2650D5C215BE0340F0ED7C /* Frameworks */,
-			);
-			name = JPush;
-			path = JPush;
 			sourceTree = "<group>";
 		};
 		DD13A423F441E3DC323C85954993CE2B /* FSM */ = {
